@@ -19,7 +19,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: "https://gobite-delivery-system-otf9.vercel.app",
+    origin: process.env.FRONTEND_URL,
     credentials: true,
   })
 );
