@@ -38,7 +38,6 @@ const EditProductAdmin = ({ close, data: propsData, fetchProductData}) => {
   const [openAddField, setOpenAddField] = useState(false);
   const [fieldName, setFieldName] = useState("");
 
-  // console.log(allSubCategory)
   const handleChange = (e) => {
     const { name, value } = e.target;
     setdata((prev) => {
@@ -94,7 +93,6 @@ const EditProductAdmin = ({ close, data: propsData, fetchProductData}) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log("data", data);
 
     try {
       const response = await Axios({

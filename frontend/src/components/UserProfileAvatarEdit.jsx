@@ -31,7 +31,6 @@ const UserProfileAvatarEdit = ({ close }) => {
       });
       const { data: responseData } = response;
       dispatch(updatedAvatar(responseData.data.avatar));
-      console.log(response);
     } catch (error) {
       console.log(error);
       AxiosToastError(error);

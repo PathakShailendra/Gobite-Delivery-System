@@ -35,7 +35,6 @@ const CheckoutPage = () => {
 
       if (responseData.success) {
         toast.success(responseData.message);
-        console.log(responseData);
         if (fetchCartItem) {
           fetchCartItem();
         }

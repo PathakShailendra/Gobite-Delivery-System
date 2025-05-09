@@ -45,7 +45,6 @@ const ResetPassword = () => {
     })
 }
 
-  console.log(data);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -72,7 +71,6 @@ const ResetPassword = () => {
             confirmPassword: "",
         });
       }
-      console.log(response);
     } catch (error) {
       AxiosToastError(error);
     }

@@ -46,7 +46,6 @@ const ForgotPassword = () => {
         });
         
       }
-      console.log(response);
     } catch (error) {
       AxiosToastError(error);
     }

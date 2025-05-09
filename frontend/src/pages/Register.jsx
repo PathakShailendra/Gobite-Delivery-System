@@ -55,7 +55,6 @@ const Register = () => {
             });
             navigate("/login");
         }
-        console.log(response);
         
     } catch (error) {
         AxiosToastError(error);

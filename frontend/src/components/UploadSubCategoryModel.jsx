@@ -14,7 +14,6 @@ const UploadSubCategoryModel = ({ close, fetchData }) => {
     category: [],
   });
 
-  console.log(subCategoryData);
 
   const allCategory = useSelector((state) => state.product.allCategory);
 
